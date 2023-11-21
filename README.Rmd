@@ -25,7 +25,8 @@ The goal of DynExpData is to provide easy data access to the experimental data f
 You can install the development version of DynExpData like so:
 
 ``` r
-%td: install here
+# install.packages("devtools")
+devtools::install_github("Schmidtpk/DynExpData")
 ```
 
 ## Instructions

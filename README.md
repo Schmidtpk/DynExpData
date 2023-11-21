@@ -16,7 +16,8 @@ approach and experimental validation”.
 You can install the development version of DynExpData like so:
 
 ``` r
-%td: install here
+# install.packages("devtools")
+devtools::install_github("Schmidtpk/DynExpData")
 ```
 
 ## Instructions
@@ -27,22 +28,20 @@ using the `pull_data` function:
 
 ``` r
 library(DynExpData)
-#> Loading required package: tidyverse
-#> Warning: package 'tidyverse' was built under R version 4.1.3
-#> -- Attaching packages --------------------------------------- tidyverse 1.3.2 --
-#> v ggplot2 3.4.4     v purrr   0.3.4
-#> v tibble  3.1.8     v dplyr   1.0.9
-#> v tidyr   1.2.0     v stringr 1.4.1
-#> v readr   2.1.2     v forcats 0.5.2
-#> Warning: package 'tibble' was built under R version 4.1.3
-#> Warning: package 'tidyr' was built under R version 4.1.3
-#> Warning: package 'readr' was built under R version 4.1.3
+#> Loading required package: dplyr
 #> Warning: package 'dplyr' was built under R version 4.1.3
-#> Warning: package 'stringr' was built under R version 4.1.3
-#> Warning: package 'forcats' was built under R version 4.1.3
-#> -- Conflicts ------------------------------------------ tidyverse_conflicts() --
-#> x dplyr::filter() masks stats::filter()
-#> x dplyr::lag()    masks stats::lag()
+#> 
+#> Attaching package: 'dplyr'
+#> The following objects are masked from 'package:stats':
+#> 
+#>     filter, lag
+#> The following objects are masked from 'package:base':
+#> 
+#>     intersect, setdiff, setequal, union
+#> Loading required package: tidyr
+#> Warning: package 'tidyr' was built under R version 4.1.3
+#> Loading required package: tibble
+#> Warning: package 'tibble' was built under R version 4.1.3
 
 # load data into list
 data.list <- pull_data()
