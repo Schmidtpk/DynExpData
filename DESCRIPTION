@@ -1,13 +1,10 @@
 Package: DynExpData
 Type: Package
-Title: Data access to the experimental data from the paper 
-Identifying dynamic shifts to careless and insufficient effort 
-behavior in questionnaire responses; A novel approach and experimental validation
+Title: Experimental data with dynamic shifts in careless responding
 Version: 0.1.0
 Author: Patrick Schmidt, Zachary Roman
 Maintainer: Patrick Schmidt <pschmidte@gmail.com>
-Description: Easy data access to the experimental data from the paper "Identifying dynamic shifts to careless and insufficient effort behavior in questionnaire responses; A novel approach and experimental validation".
-Includes all data from experiment and a wrapper function to sample in suitable formats.
+Description: Easy data access to the experimental data from the paper "Identifying dynamic shifts to careless and insufficient effort behavior in questionnaire responses; A novel approach and experimental validation". Includes all data from experiment and a wrapper function to sample in suitable formats.
 License: CC0
 Encoding: UTF-8
 LazyData: true
