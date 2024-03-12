@@ -79,5 +79,22 @@ head(df)
 #> #   3: value.org
 ```
 
-If you want to sample specific data points, the pull_data functions has
-arguments for that. You can look at `?pull_data` for details.
+The exported data.frame contains the columns
+
+- id: Participant ID
+- j: Participant ID numeric
+- iname: Item name (items 6,7,8,9,and, 10 are reverse coded for each
+  factor)
+- time: Response time for item
+- timerank: Ranked response time in decimal form
+- value: Response to item with reverse coded items already reversed  
+- i: Item number (iord)
+- t: Item presentation number (tord)
+- treatment.timing: Position of treatment instructions for conditions 3
+  and 4
+- instr: Specific instructions
+- cond: Condition 1 through 4 (1 and 2 are control)
+- value.org: Original item response prior to reverse coding
+
+If you want to sample specific data points, the `pull_data` functions
+has arguments for that. You can look at `?pull_data` for details.
